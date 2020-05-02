@@ -1,0 +1,476 @@
+/******************************
+ Theme Name: Sidetheme
+ Author: Suraj Datheputhe
+ Version: 1.0.2
+ Created: April 7th 2020
+ Updated: April 28th 2020
+ ©2020 Suraj Datheputhe, All Rights Reserved.
+*****************************/
+
+body {
+    font-family: Roboto;
+    font-size: 18px;
+    background-color: #f5f5f5;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+    .navbar-expand-md .navbar-nav .nav-link { padding-left: 0.6rem; padding-right: 0.6rem; } 
+}
+ 
+@media (max-width: 767px) {
+    .navbar.navbar-no-bg { background: #444; }
+    .navbar-dark .navbar-toggler { border-color: #444; }
+    .navbar-dark .navbar-toggler:focus { background: #333; outline: 0; }
+    .navbar-expand-md .navbar-nav .nav-link { padding-top: 0.3rem; padding-bottom: 0.3rem; } 
+}
+
+.form-control:focus{
+    border-color: #3c4b96;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+.navbar {
+    background: #444;
+    -o-transition: all .6s;
+    -moz-transition: all .6s;
+    -webkit-transition: all .6s;
+    -ms-transition: all .6s;
+    transition: all .6s;
+    backface-visibility: hidden;
+}
+ 
+.navbar.navbar-no-bg {
+    background: #444;
+    background: #212e36;
+}
+ 
+.navbar-dark .navbar-nav {
+    font-size: 15px;
+    color: #fff;
+    text-transform: capitalize;
+}
+ 
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
+    border: 0;
+}
+ 
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+ 
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #fff;
+    outline: 0;
+}
+ 
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+ 
+.navbar-brand {
+    border: 0;
+    text-indent: -99999px;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.menu-dark {
+    background-color: #212e36;
+    border-color: #212e36
+}
+
+.item-dark {
+    color: #fff;
+    background-color: #212e36;
+    border-color: #212e36;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.item-dark:hover {
+    background-color: #3b4d58;
+    color: #fff;
+}
+
+
+/* Header */
+.header {
+    font-weight: 600;
+    font-size: 28px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.header-action {
+    position: relative;
+    background-color: #343a40;
+    background: url(../img/banner.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 7rem; }
+
+    .header-action .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .3;
+}
+
+/* Item Listing */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.container h4 {
+    margin-top: 14px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-margin {
+    margin-top: 14px;
+    margin-bottom: 0px;
+}
+
+.card-height {
+     height: 100%;
+}
+.card h5 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.card-body h5 {
+    color: #212121;
+    text-decoration: none;
+}
+
+.card-body h5:hover {
+    color: #5c6bc0;
+}
+.card-body a {
+    text-decoration: none;
+}
+
+/* Footer */
+footer.footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 40px;
+    color: #fff;
+    background-color: #212e36;
+}
+
+.footer a {
+    font-size: 15px;
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #a4aebf;
+}
+
+/* Page */
+.breadcrumb {
+    background-color: #f5f5f5;
+    font-size: 12px;
+    padding: 0;
+    margin-top: 90px;
+    text-decoration: none;
+}
+
+.page-header {
+     font-weight: 600;
+     font-size: 26px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+
+.page-text {
+    font-size: 17px;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+.navbar-collapse li {
+    font-weight: 600;
+}
+
+.single-image {
+    height: auto;
+    width: auto;
+    object-fit: contain;
+}
+
+.item-header {
+    font-weight: 600;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+.list-group .title {
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #18c5a9;
+    border-color: #18c5a9;
+    color: #fff;
+}
+
+.list-group .list {
+    font-size: 14px;
+}
+
+#outer
+{
+    width:100%;
+    text-align: center;
+}
+.inner
+{
+    display: inline-block;
+}
+
+.btn-download {
+    cursor:pointer;
+    background-color: #5c6bc0;
+    color: #fff;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+}
+
+.btn-download:hover {
+    background-color: #455190;
+    color: #fff;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+   cursor: pointer;
+}
+
+.btn-download:active{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+.btn-preview {
+    cursor:pointer;
+    background-color: #e9ecef;
+    border-color: #e9ecef;
+    color: #485b6f;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+}
+
+.btn-preview:hover {
+    background-color: #d9dcde;
+    color: #485b6f;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+   cursor: pointer;
+}
+
+.btn-preview:active{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+
+.download-count {
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #18c5a9;
+    border-color: #18c5a9;
+    color: #fff;
+}
+
+.description {
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #18c5a9;
+    border-color: #18c5a9;
+    color: #fff;
+}
+
+/* Buttons */
+.btn-primary , .btn-primary:active {
+    color: #fff;
+    background: #5c6bc0;
+    border-color: #5c6bc0;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    vertical-align: middle;
+    border: none;
+    cursor: pointer;
+    padding: 8px 25px;
+}
+
+.btn-primary:hover, .btn-primary:focus {      
+    color: #fff;
+    outline: none;
+    background: #36459a;
+    cursor: pointer;
+}
+
+.btn-success , .btn-success:active {
+    color: #fff;
+    background: #16ab93;
+    border-color: #1d9e8a;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    vertical-align: middle;
+    border: none;
+    cursor: pointer;
+    padding: 8px 25px;
+}
+
+.btn-success:hover, .btn-success:focus {      
+    color: #fff;
+    outline: none;
+    background: #1d9e8a;
+    cursor: pointer;
+}
+
+.comment-list {
+    padding: 0;
+    margin: 0;
+}
+
+.comment-list li {
+    padding: 0;
+    margin: 0 0 0 0;
+    float: left;
+    width: 100%;
+    clear: both;
+    list-style: none;
+}
+
+.comment-list li .vcard {
+    width: 80px;
+    float: left;
+}
+
+.comment-list li .comment-body {
+    float: right;
+    width: calc(100% - 80px);
+}
+.comment-list li .comment-body .meta {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: .1em;
+    color: #ccc;
+}
+
+.comment-list li .comment-body .reply {
+    padding: 5px 10px;
+    background: #e6e6e6;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.reply:hover {
+    cursor: pointer;
+}
+
+.comment-list li .vcard img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.comment-body h5 {
+    font-size: 15px;
+}
+
+.meta {
+    font-size: 12px;
+}
+
+#replyForm {
+    display: none;
+}
+
+.col-sm-6 label {
+    font-size: 13px;
+}
+.col-sm-6 input {
+    font-size: 14px;
+    padding: 5px 10px;
+    line-height: 20px;
+}
+
+.col-sm-6 textarea {
+    font-size: 14px;
+}
+
+.pagination {
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 0.25rem;
+}
+
+.page-item.active .page-link {
+    border-color: #5c6bc0;
+    background-color: #5c6bc0;
+}
+
+.page-link {
+    color: #5c6bc0;
+}
+.item {
+    position:relative;
+    padding-top:20px;
+    display:inline-block;
+}
+.item-badge {
+    position: absolute;
+    left: 5px;
+    top: 165px;
+    background: #737373;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    padding: 4px 8px;
+    font-size: 11px;
+}

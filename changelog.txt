@@ -1,0 +1,50 @@
+***************************
+----- Change Log------------
+***************************
+
+-----Version 1.0.1---------
+
+1.  Fixed - File size not seen after update
+2.  Fixed - Compatible browser not seen
+3.  Fixed - Unpublished page can not be visible
+4.  Added - Delete file if download link exists
+5.  Added - Both link and file can not be uploaded
+6.  Fixed - Items files included field not supported
+7.  Fixed - Summernote text editor tools
+8.  Fixed - Breadcrumb in conact page and search results
+9.  Added - Latest Items short by descending id in dashboard
+10. Fixed - Fixed upload size limit validattion in edit item
+11. Fixed - Changed table name of item
+12. Fixed - Realeased data and last updated time fixed
+13. Fixed - Fixed get file size algorithum
+14. Fixed - Modifed date in admin panel
+15. Fixed - Non exits page error fixed
+16. Fixed - Header and footer code error in frontend
+17. Fixed - Fixed bug in categories and pages sitemap
+18. Added - Added new coloum in item table
+19. Fixed - Changed some minor css and html tag
+20. Fixed - error in trash page fixed
+21. Fixed - Some minor css in front
+22. Fixed - Fixed erorr while delete the category and make theme 0 to null
+
+------------- Version 1.0.2 -------------
+
+1. Added - Author column in database
+2. Added - View live demo in own site
+3. Fixed - Changes some minor css
+4. Fixed - Bug fixed in seo(og-titlle, description)
+5. Fixed - Updated imaged quality
+6. Fixed - Chagned upload file's naming method
+7. Fixed - Bug Fixed while uploading the file less than 1024 KB
+8. Fixed - Changed pagination style and color
+9. Added - Badge added in home page for items
+
+------------- Version 1.0.3 -------------
+
+1. Added - Count download times
+2. Added - Make secure file download
+3. Fixed - Single item's image size 
+4. Fixed - Some minor changes in css
+5. Fixed - Fixed some security
+6. Fixed - Error Handling in Post request method
+7. Fixed - Bug fixed while downloding the file
