@@ -1,2 +1,2 @@
 * linguist-vendored
-*.laarvel linguist-vendored=false
+*.blade.php linguist-vendored=false
