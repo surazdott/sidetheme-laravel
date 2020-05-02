@@ -1,4 +1,4 @@
-![picture](https://www.sidetheme.com/assets/img/cover.png")
+![image](screenshot.png")
 ## About Laravel
 Sidetheme is opensouce website themes and template listing application. You can upload the your themes. templates and software. It isfully responsible, power and clean code. This appication is developed from Laravel framework version 7.
 ### Demo : https://www.sidetheme
