@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/surazdott/Sidetheme---Laravel-Software-Listing-Template/master/screenshot.png">
 
 ## About
-Sidetheme is opensouce website themes and template listing application. You can upload the your themes. templates and software. It is fully responsive, power and clean code. This appication is developed from Laravel framework version 7.
+Sidetheme is opensouce website themes and template listing application. You can upload the your themes. templates and software. It is fully responsive, power and clean code. This appication is developed with Laravel framework version 7.
 
 ### Demo : https://www.sidetheme
 
